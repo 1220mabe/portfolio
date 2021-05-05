@@ -37,6 +37,9 @@ ul {
   list-style: none;
 }
 
+.line-style {
+  background-color: #EFE8D7;
+}
 
 .nav-button {
   position: relative;
@@ -127,7 +130,6 @@ ul {
     position: absolute;
     top: 12px;
     right: 2px;
-
     cursor: pointer;
     color: #EFE8D7;
   }
