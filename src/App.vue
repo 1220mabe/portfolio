@@ -3,7 +3,15 @@
   <Mausestalker ref="child"></Mausestalker>
   <Header id="header"></Header>
   <div id="top-back">
-
+    <div class="star-box">
+      <div class="star"></div>
+    </div>
+    <div class="star-box_2">
+      <div class="star_2"></div>
+    </div>
+    <div class="star-box_3">
+      <div class="star_3"></div>
+    </div>
     <kinesis-container class="container">
       <kinesis-element :strength="-50">
         <vue-particles color="#EFE8D7" :particleOpacity="0.5" :particlesNumber="120" shapeType="circle" :particleSize="3" linesColor="#EFE8D7" :lineLinked="false" :hoverEffect="false" :clickEffect="true" clickMode="push" class="particles">
@@ -14,20 +22,8 @@
           <div class="rotate-anime_2"><img class="" src="./assets/anime/zgzgcircle.svg" alt="anime"></div>
         </div>
       </kinesis-element>
-      <kinesis-element :strength="0">
-        <div class="star-box">
-          <div class="star"></div>
-        </div>
-      </kinesis-element>
-      <kinesis-element :strength="0">
-        <div class="star-box_2">
-          <div class="star_2"></div>
-        </div>
-      </kinesis-element>
-      <kinesis-element :strength="0">
-        <div class="star-box_3">
-          <div class="star_3"></div>
-        </div>
+      <kinesis-element :strength="-25">
+
       </kinesis-element>
     </kinesis-container>
   </div>
@@ -405,6 +401,117 @@ export default {
     opacity: 50%;
   }
 }
+
+/* vue-burger-button CSS */
+
+.bm-burger-button {
+  position: fixed;
+  width: 42px;
+  height: 30px;
+  left:28px;
+  top: 28px;
+  cursor: pointer;
+  color: #EFE8D7;
+}
+
+.bm-burger-bars {
+  background-color: #EFE8D7;
+}
+
+.line-style {
+  position: absolute;
+  height: 20%;
+  left: 0;
+  right: 0;
+  color: #EFE8D7;
+  background-color: #EFE8D7;
+}
+.cross-style {
+  position: absolute;
+  top: 12px;
+  right: 2px;
+  cursor: pointer;
+  color: #EFE8D7;
+}
+.bm-cross {
+  background: #EFE8D7;
+  color: #EFE8D7;
+}
+
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+  color: #EFE8D7;
+}
+
+
+.bm-menu {
+  opacity: 0.90;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  background: linear-gradient(135deg, #001630, #012C60);
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+  color: #EFE8D7;
+}
+
+.bm-overlay {
+  background: #012C60;
+}
+
+.bm-item-list {
+  color: #EFE8D7;
+  margin-left: 10%;
+  font-size: 20px;
+}
+
+.bm-item-list > * {
+  display: flex;
+  text-decoration: none;
+  padding: 0.7em;
+}
+
+.bm-item-list > * > span {
+  margin-left: 10px;
+  font-weight: 700;
+  color: #EFE8D7;
+}
+
+.nav-ham {
+  position: relative;
+  display: block;
+  font-weight: bold;
+  padding: 0.25em 0px 0px 0px;
+  text-decoration: none;
+  margin-top: 15px;
+  outline: none;
+  color: #EFE8D7;
+}
+
+.nav-ham:before {
+  position: absolute;
+  content: '';
+  width: 80px;
+  height: 2px;
+  top: 100%;
+  left: 0;
+  border-radius: 0.5px;
+  background: #EFE8D7;
+  color: #EFE8D7;
+  transition: .25s;
+}
+
+.nav-ham:hover:before {
+  top: -webkit-calc(100% - 3px);
+  top: calc(100% - 3px);
+  height: 14.5px;
+}
+
 
 @media screen and (max-width: 2300px) {
   #top-back {
