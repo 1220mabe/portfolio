@@ -41,8 +41,18 @@ export default {
   padding: 20px 5px;
   margin: unset;
   cursor: pointer;
-
 }
+
+.bm-burger-bars {
+  background-color: #EFE8D7;
+  color: #EFE8D7;
+}
+
+.line-style {
+  color: #EFE8D7;
+  background-color: #EFE8D7;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Quicksand&display=swap');
 
 
