@@ -1,9 +1,9 @@
-# profile
+# Masaru Abe Portfolio
 
 ## What is the repository
 
 This is my site using Vue.js.<br>
-[LINK](https://shoma-profile.netlify.com)
+[LINK](https://masaru-abe.com)
 
 ## Project setup
 ```
