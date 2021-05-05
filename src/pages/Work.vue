@@ -29,7 +29,7 @@
         </div>
         <br>
         <a href="https://masaru-abe.com/" class="card-link" target="_blank">Website</a>
-        <a href="" class="card-link github-link" target="_blank">Github</a>
+        <a href="https://github.com/1220mabe/portfolio" class="card-link github-link" target="_blank">Github</a>
       </div>
     </li>
 
@@ -45,7 +45,10 @@
             <img src="../assets/lang/python.svg" alt="logo" class="item-image">
           </div>
           <div class="item">
-            <img src="../assets/lang/wordpress.png" alt="logo" class="item-image">
+            <img src="../assets/lang/chart.png" alt="logo" class="item-image">
+          </div>
+          <div class="item">
+            <img src="../assets/lang/illustrator.svg" alt="logo" class="item-image">
           </div>
           <div class="item">
             <img src="../assets/lang/illustrator.svg" alt="logo" class="item-image">
@@ -53,7 +56,7 @@
         </div>
         <br>
         <a href="https://teamqno.work/" class="card-link" target="_blank">Website</a>
-        <a href="https://teamqno.work/" class="card-link github-link" target="_blank">Github</a>
+        <a href="https://github.com/1220mabe/TeamQno" class="card-link github-link" target="_blank">Github</a>
       </div>
     </li>
   </ul>
