@@ -194,7 +194,6 @@ export default {
 }
 
 
-
 @media screen and (max-width: 1200px) {
 
  .textbox{
@@ -220,52 +219,9 @@ export default {
     font-size: 28px;
     color: #EFE8D7;
   }
-
-/*   #main .textbox-mobile:before {
-  font-size: 32px;
-  line-height: 42px;
-  letter-spacing: 9px;
-  position: absolute;
-  left: -17%;
-  width: 150%;
-  justify-content: center;
-  top: 3.1em;
-  content: "Masaru Abe  Portfo l io";
-  opacity: 0.1;
-  transform: rotateX(180deg);
-  animation: zoomIn 8s linear;
-  animation-fill-mode: both;
-  color: transparent;
-  text-shadow: 0px 0px 6px #EFE8D7;
-} */
 }
 
 @media screen and (max-width: 768px) {
-
-
-
-/*   .top-text {
-  display: none;
-}
-
-.top-text-mobile {
-  display: block;
-  font-size: 25px;
-  color: #EFE8D7;
-}
-
-#main .top-text-mobile:before {
-  position: absolute;
-  width: 100%;
-  top: 2.2em;
-  content: "Masaru Abe Portfolio";
-  opacity: 0.3;
-  transform: rotateX(180deg);
-  animation: zoomIn 8s linear;
-  animation-fill-mode: both;
-  color: transparent;
-  text-shadow: 0px 0px 6px #EFE8D7;
-} */
 
   .res {
     display: contents;

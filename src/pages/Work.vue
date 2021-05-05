@@ -48,7 +48,7 @@
             <img src="../assets/lang/chart.png" alt="logo" class="item-image">
           </div>
           <div class="item">
-            <img src="../assets/lang/illustrator.svg" alt="logo" class="item-image">
+            <img src="../assets/lang/wordpress.png" alt="logo" class="item-image">
           </div>
           <div class="item">
             <img src="../assets/lang/illustrator.svg" alt="logo" class="item-image">
