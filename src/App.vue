@@ -23,6 +23,9 @@
           <div class="rotate-anime_2"><img class="" src="./assets/anime/zgzgcircle.svg" alt="anime"></div>
         </div>
       </kinesis-element>
+      <kinesis-element :strength="-25">
+
+      </kinesis-element>
     </kinesis-container>
   </div>
 
@@ -90,6 +93,20 @@ export default {
   z-index: 1;
   height: 100vh;
   width: auto;
+}
+
+#cube {
+  z-index: 1;
+  user-select: none;
+  /* CSS3 */
+  -moz-user-select: none;
+  /* Firefox */
+  -webkit-user-select: none;
+  /* Safari、Chromeなど */
+  -ms-user-select: none;
+
+  position: absolute;
+  width: 5000px;
 
 }
 
@@ -311,7 +328,6 @@ export default {
   right: 100px;
   bottom: 200px;
   animation: rotate-anime 20s linear infinite;
-
 }
 
 .rotate-hover {
