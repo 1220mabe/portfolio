@@ -339,19 +339,6 @@ export default {
   transition-duration: 0.7s;
 }
 
-@keyframes rotate-anime {
-  0% {
-    transform: rotate(0);
-  }
-
-  100% {
-    transform: rotate(-360deg);
-  }
-}
-
-
-
-
 /* 流れ星 */
 
 .star-box {
@@ -416,6 +403,21 @@ export default {
   animation-delay: 5s;
   animation-iteration-count: infinite;
 }
+
+
+@keyframes rotate-anime {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+
+
+
 
 @keyframes shooting {
   0% {
