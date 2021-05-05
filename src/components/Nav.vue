@@ -33,10 +33,6 @@ export default {
 
 
 <style>
-ul {
-  list-style: none;
-}
-
 .line-style {
   background-color: #EFE8D7;
 }
@@ -100,7 +96,6 @@ ul {
     -webkit-user-select: none;
     -ms-user-select: none;
   }
-  /* vue-burger-button CSS */
 
   .bm-burger-button {
     position: fixed;
