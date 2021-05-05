@@ -21,13 +21,13 @@
       </kinesis-element>
       <kinesis-element :strength="-25">
         <div class="rotate-hover">
-        <div class="rotate-anime_2"><img class="" src="./assets/anime/zgzgcircle.svg" alt="anime"></div>
-</div>
+          <div class="rotate-anime_2"><img class="" src="./assets/anime/zgzgcircle.svg" alt="anime"></div>
+        </div>
       </kinesis-element>
     </kinesis-container>
 
   </div>
-<!--   <div class="rotate-anime"><img class="" src="./assets/anime/zgzgcircle.svg" alt="anime"></div>
+  <!--   <div class="rotate-anime"><img class="" src="./assets/anime/zgzgcircle.svg" alt="anime"></div>
  -->
   <div class="nav-res">
     <router-link to="/">Top</router-link>
@@ -282,10 +282,14 @@ export default {
 
 .rotate-anime {
   z-index: 1;
-  user-select: none; /* CSS3 */
-  -moz-user-select: none; /* Firefox */
-  -webkit-user-select: none; /* Safari、Chromeなど */
-  -ms-user-select: none; /* IE10かららしい */
+  user-select: none;
+  /* CSS3 */
+  -moz-user-select: none;
+  /* Firefox */
+  -webkit-user-select: none;
+  /* Safari、Chromeなど */
+  -ms-user-select: none;
+  /* IE10かららしい */
   opacity: 0.4;
   position: absolute;
   width: 100px;
@@ -307,14 +311,16 @@ export default {
   opacity: 0.3;
   width: 200px;
   right: 100px;
-  bottom:200px;
+  bottom: 200px;
   animation: rotate-anime 20s linear infinite;
 
 }
-.rotate-hover{
+
+.rotate-hover {
   transition-duration: 0.7s;
 }
-.rotate-hover:hover{
+
+.rotate-hover:hover {
   transform: scale(1.05);
   transition-duration: 0.7s;
 }
@@ -335,33 +341,33 @@ export default {
 /* 流れ星 */
 
 .star-box {
-  position:absolute;
-  top:37%;
-  left:34%;
+  position: absolute;
+  top: 37%;
+  left: 34%;
   height: 100px;
   width: 100px;
   transform: rotateZ(45deg);
-  repeat:;
+  repeat: ;
 }
 
 .star-box_2 {
-  position:absolute;
-  top:49%;
-  left:46%;
+  position: absolute;
+  top: 49%;
+  left: 46%;
   height: 100px;
   width: 100px;
   transform: rotateZ(45deg);
-  repeat:;
+  repeat: ;
 }
 
 .star-box_3 {
-  position:absolute;
-  top:39%;
-  left:64%;
+  position: absolute;
+  top: 39%;
+  left: 64%;
   height: 100px;
   width: 100px;
   transform: rotateZ(45deg);
-  repeat:;
+  repeat: ;
 }
 
 .star {
@@ -371,8 +377,8 @@ export default {
   animation-name: shooting;
   animation-duration: 8s;
   animation-timing-function: linear;
-  animation-delay:4s;
-  animation-iteration-count:infinite;
+  animation-delay: 4s;
+  animation-iteration-count: infinite;
 }
 
 .star_2 {
@@ -382,8 +388,8 @@ export default {
   animation-name: shooting;
   animation-duration: 8s;
   animation-timing-function: linear;
-  animation-delay:4.5s;
-  animation-iteration-count:infinite;
+  animation-delay: 4.5s;
+  animation-iteration-count: infinite;
 }
 
 .star_3 {
@@ -393,8 +399,8 @@ export default {
   animation-name: shooting;
   animation-duration: 8s;
   animation-timing-function: linear;
-  animation-delay:5s;
-  animation-iteration-count:infinite;
+  animation-delay: 5s;
+  animation-iteration-count: infinite;
 }
 
 @keyframes shooting {
@@ -412,6 +418,7 @@ export default {
     height: 80px;
     opacity: 0;
   }
+
   12.51% {
     height: 0;
     opacity: 50%;
@@ -449,6 +456,7 @@ export default {
     left: 2%;
     right: 2%;
   }
+
   .rotate-anime_2 {
     z-index: 0;
     user-select: none;
@@ -459,7 +467,7 @@ export default {
     opacity: 0.4;
     width: 100px;
     right: 20px;
-    bottom:100px;
+    bottom: 100px;
     animation: rotate-anime 20s linear infinite;
   }
 
