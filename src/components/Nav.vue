@@ -1,6 +1,6 @@
 <template>
 <div>
-  <fall-down class ="nav-slide" :right='false' :isOpen="id" :crossIcon="true" :closeOnNavigation="true" :width="250">
+  <fall-down class ="nav-slide" :right='false' :isOpen="id" :crossIcon="true" :closeOnNavigation="true" :width="250" >
     <router-link to="/" @click.native="change" class="nav-ham">Top</router-link>
     <router-link to="/about" @click.native="change" class="nav-ham">About</router-link>
     <router-link to="/skill" @click.native="change" class="nav-ham">Skill</router-link>
@@ -107,17 +107,19 @@ ul {
     top: 28px;
     cursor: pointer;
     color: #EFE8D7;
+
   }
 
   .bm-burger-bars {
     background-color: #EFE8D7;
+    color: #EFE8D7;
   }
 
   .line-style {
     position: absolute;
-    height: 20%;
-    left: 0;
-    right: 0;
+    height: 7px;
+    left: 0px;
+    right: 0px;
     color: #EFE8D7;
     background-color: #EFE8D7;
   }
@@ -125,6 +127,7 @@ ul {
     position: absolute;
     top: 12px;
     right: 2px;
+
     cursor: pointer;
     color: #EFE8D7;
   }
