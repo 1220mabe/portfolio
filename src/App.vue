@@ -3,15 +3,7 @@
   <Mausestalker ref="child"></Mausestalker>
   <Header id="header"></Header>
   <div id="top-back">
-    <div class="star-box">
-      <div class="star"></div>
-    </div>
-    <div class="star-box_2">
-      <div class="star_2"></div>
-    </div>
-    <div class="star-box_3">
-      <div class="star_3"></div>
-    </div>
+
     <kinesis-container class="container">
       <kinesis-element :strength="-50">
         <vue-particles color="#EFE8D7" :particleOpacity="0.5" :particlesNumber="120" shapeType="circle" :particleSize="3" linesColor="#EFE8D7" :lineLinked="false" :hoverEffect="false" :clickEffect="true" clickMode="push" class="particles">
@@ -22,8 +14,20 @@
           <div class="rotate-anime_2"><img class="" src="./assets/anime/zgzgcircle.svg" alt="anime"></div>
         </div>
       </kinesis-element>
-      <kinesis-element :strength="-25">
-
+      <kinesis-element :strength="0">
+        <div class="star-box">
+          <div class="star"></div>
+        </div>
+      </kinesis-element>
+      <kinesis-element :strength="0">
+        <div class="star-box_2">
+          <div class="star_2"></div>
+        </div>
+      </kinesis-element>
+      <kinesis-element :strength="0">
+        <div class="star-box_3">
+          <div class="star_3"></div>
+        </div>
       </kinesis-element>
     </kinesis-container>
   </div>
@@ -278,27 +282,6 @@ export default {
 
 
 /* Animation */
-
-.rotate-anime {
-  z-index: 1;
-  user-select: none;
-  /* CSS3 */
-  -moz-user-select: none;
-  /* Firefox */
-  -webkit-user-select: none;
-  /* Safari、Chromeなど */
-  -ms-user-select: none;
-  /* IE10かららしい */
-  opacity: 0.4;
-  position: absolute;
-  width: 100px;
-  top: 10px;
-  right: 5%;
-  z-index: 1;
-  animation: rotate-anime 20s linear infinite;
-}
-
-
 
 
 .rotate-anime_2 {
