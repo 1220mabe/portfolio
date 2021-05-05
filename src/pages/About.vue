@@ -227,7 +227,7 @@ p.photo img {
 
   .section-grip__main-image{
     position: relative;
-    margin: 0 20px 0 30px;
+    margin: 0 auto;
     width: 300px;
     height: 300px;
   }
