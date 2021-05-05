@@ -71,7 +71,7 @@
     padding-left: 0%;
     padding-right: 0%;
     margin-bottom: 5px;
-    font-family: vdl-linegr,sans-serif;
+    font-family: vdl-linegr, Orbitron,sans-serif;
 }
 
 .works .item{
@@ -179,7 +179,7 @@
       padding-left: 0%;
       padding-right: 0%;
       margin-bottom: 5px;
-      font-family: vdl-linegr,sans-serif;
+      font-family: vdl-linegr, Orbitron,sans-serif;
   }
 
   .works .item{

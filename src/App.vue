@@ -3,7 +3,6 @@
   <Mausestalker ref="child"></Mausestalker>
 
   <Header id="header"></Header>
-
   <div id="top-back">
     <div class="star-box">
       <div class="star"></div>
@@ -25,10 +24,8 @@
         </div>
       </kinesis-element>
     </kinesis-container>
-
   </div>
-  <!--   <div class="rotate-anime"><img class="" src="./assets/anime/zgzgcircle.svg" alt="anime"></div>
- -->
+
   <div class="nav-res">
     <router-link to="/">Top</router-link>
     <router-link to="/about">About</router-link>
@@ -65,6 +62,7 @@ export default {
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
 
 #app {
   font-family: 'Montserrat', sans-serif;
@@ -165,7 +163,7 @@ export default {
 
 
 .content-title {
-  font-family: vdl-linegr, sans-serif;
+  font-family: vdl-linegr, Orbitron,sans-serif;
   color: #EFE8D7;
 }
 
@@ -477,34 +475,6 @@ export default {
   .about-back {
     text-align: center;
   }
-
-  /* .top-text {
-    font-size: 25px;
-  }
-
-  #header {
-    display: none;
-  }
-
-  .res {
-    display: contents;
-  }
-
-  .nav-res {
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-    z-index: 1;
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-
-  .content-title {
-    margin-bottom: 30px;
-  } */
 }
 
 

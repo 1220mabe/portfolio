@@ -38,7 +38,6 @@ ul {
 }
 
 
-
 .nav-button {
   position: relative;
   display: block;
@@ -83,69 +82,7 @@ ul {
 }
 
 
-/* vue-burger-button CSS */
-.bm-burger-button {
-      position: fixed;
-      width: 42px;
-      height: 30px;
-      left:28px;
-      top: 28px;
-      cursor: pointer;
-    }
-    .bm-burger-bars {
-      background-color: #EFE8D7;
-    }
-    .line-style {
-      position: absolute;
-      height: 20%;
-      left: 0;
-      right: 0;
-    }
-    .cross-style {
-      position: absolute;
-      top: 12px;
-      right: 2px;
-      cursor: pointer;
-    }
-    .bm-cross {
-      background: #EFE8D7;
-    }
 
-    .bm-cross-button {
-      height: 24px;
-      width: 24px;
-    }
-    .bm-menu {
-      opacity: 0.90;
-      height: 100%; /* 100% Full-height */
-      width: 0; /* 0 width - change this with JavaScript */
-      position: fixed; /* Stay in place */
-      z-index: 1000; /* Stay on top */
-      top: 0;
-      left: 0;
-      background: linear-gradient(135deg, #001630, #012C60);
-      overflow-x: hidden; /* Disable horizontal scroll */
-      padding-top: 60px; /* Place content 60px from the top */
-      transition: 0.5s; /*0.5 second transition effect to slide in the sidenav*/
-    }
-    .bm-overlay {
-      background: #012C60;
-    }
-    .bm-item-list {
-      color: #b8b7ad;
-      margin-left: 10%;
-      font-size: 20px;
-    }
-    .bm-item-list > * {
-      display: flex;
-      text-decoration: none;
-      padding: 0.7em;
-    }
-    .bm-item-list > * > span {
-      margin-left: 10px;
-      font-weight: 700;
-      color: white;
-    }
 
 
 
@@ -162,6 +99,71 @@ ul {
     display:block;
   }
 
+  /* vue-burger-button CSS */
+  .bm-burger-button {
+        position: fixed;
+        width: 42px;
+        height: 30px;
+        left:28px;
+        top: 28px;
+        cursor: pointer;
+      }
+      .bm-burger-bars {
+        background-color: #EFE8D7;
+      }
+      .line-style {
+        position: absolute;
+        height: 20%;
+        left: 0;
+        right: 0;
+        color: #EFE8D7;
+        background-color: #EFE8D7;
+      }
+      .cross-style {
+        position: absolute;
+        top: 12px;
+        right: 2px;
+        cursor: pointer;
+      }
+      .bm-cross {
+        background: #EFE8D7;
+      }
+
+      .bm-cross-button {
+        height: 24px;
+        width: 24px;
+      }
+      .bm-menu {
+        opacity: 0.90;
+        height: 100%; /* 100% Full-height */
+        width: 0; /* 0 width - change this with JavaScript */
+        position: fixed; /* Stay in place */
+        z-index: 1000; /* Stay on top */
+        top: 0;
+        left: 0;
+        background: linear-gradient(135deg, #001630, #012C60);
+        overflow-x: hidden; /* Disable horizontal scroll */
+        padding-top: 60px; /* Place content 60px from the top */
+        transition: 0.5s; /*0.5 second transition effect to slide in the sidenav*/
+      }
+      .bm-overlay {
+        background: #012C60;
+      }
+      .bm-item-list {
+        color: #b8b7ad;
+        margin-left: 10%;
+        font-size: 20px;
+      }
+      .bm-item-list > * {
+        display: flex;
+        text-decoration: none;
+        padding: 0.7em;
+      }
+      .bm-item-list > * > span {
+        margin-left: 10px;
+        font-weight: 700;
+        color: white;
+      }
 
   .nav-ham {
     position: relative;

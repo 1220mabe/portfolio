@@ -3,7 +3,6 @@
 
   <kinesis-container class="container">
     <kinesis-element :strength="15">
-      <!--   <vue-typer :text="['Masaru Abe Portfolio']" class="top-text" :repeat='0' :preTypeDelay="1000" :typeDelay="120" :preEraseDelay="5000" :eraseDelay="2000"></vue-typer> -->
       <transition-group tag="div" class="textbox" v-on:before-enter="beforeEnter" v-on:enter="enter" v-on:before-leave="beforeEnter" v-on:leave="leave">
         <div class="text-square" v-for="(datas,index) in textModel" :key="index">
           <h2>{{datas}}</h2>
@@ -12,7 +11,6 @@
 
     </kinesis-element>
     <kinesis-element :strength="15">
-<!--       <vue-typer :text="['Masaru AbenPortfolio']" class="top-text-mobile" :repeat='0' :preTypeDelay="1000" :typeDelay="120" :preEraseDelay="5000" :eraseDelay="2000"></vue-typer> -->
       <transition-group tag="div" class="textbox-mobile" v-on:before-enter="beforeEnter" v-on:enter="enter" v-on:before-leave="beforeEnter" v-on:leave="leave">
         <div class="text-square" v-for="(datas,index) in textModel" :key="index">
           <h2>{{datas}}</h2>
@@ -85,7 +83,7 @@ export default {
 
 <style>
 .textbox {
-  font-family: vdl-linegr, sans-serif;
+  font-family: vdl-linegr,  Orbitron,sans-serif;
   color: #EFE8D7;
   display: grid;
   justify-content: center;
@@ -156,7 +154,7 @@ export default {
 
 
 #main {
-  font-family: vdl-linegr, sans-serif;
+  font-family: vdl-linegr,  Orbitron,sans-serif;
   color: #EFE8D7;
   position: absolute;
   top: 40%;
@@ -198,16 +196,13 @@ export default {
 
 
 @media screen and (max-width: 1200px) {
-/*   .top-text {
-  font-size: 32px;
-  color: #EFE8D7;
-} */
+
  .textbox{
   display: none;
 }
 
   .textbox-mobile {
-    font-family: vdl-linegr, sans-serif;
+    font-family: vdl-linegr,  Orbitron,sans-serif;
     color: #EFE8D7;
     display: grid;
     justify-content: center;

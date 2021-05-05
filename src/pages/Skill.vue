@@ -120,7 +120,7 @@
     padding-left: 15%;
     padding-right: 15%;
     margin-bottom: 50px;
-    font-family: vdl-linegr,sans-serif;
+    font-family: vdl-linegr, Orbitron,sans-serif;
 }
 
 .item{
@@ -180,7 +180,7 @@
       padding-left: 8%;
       padding-right: 8%;
       margin-bottom: 20px;
-      font-family: vdl-linegr,sans-serif;
+      font-family: vdl-linegr, Orbitron,sans-serif;
   }
 
   .item{
