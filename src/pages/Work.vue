@@ -1,55 +1,63 @@
 <template>
 <div class="work-back">
-        <div class="work-title-shadow"><h1 class="content-title">Works</h1></div>
-        <ul class="works">
-          <li class="card">
-            <img class="card-img" src="../assets/work/portfolio.png" alt="">
-            <div class="card-content">
-              <h1 class="card-title jp">ポートフォリオサイト</h1>
-              <p class="card-text">This portfolio site</p>
-              <div class="items">
-                  <div class="item">
-                      <img src="../assets/lang/html-5.svg" alt="logo" class="item-image">
-                  </div>
-                  <div class="item">
-                      <img src="../assets/lang/css-3.svg" alt="logo" class="item-image">
-                  </div>
-                  <div class="item">
-                      <img src="../assets/lang/javascript.svg" alt="logo" class="item-image">
-                  </div>
-                  <div class="item">
-                      <img src="../assets/lang/vue.svg" alt="logo" class="item-image">
-                  </div>
-              </div>
-              <br>
-              <a href="https://teamqno.work/" class="card-link">Website</a>
-              <a href="" class="card-link github-link">Github</a>
-            </div>
-          </li>
+  <div class="work-title-shadow">
+    <h1 class="content-title">Works</h1>
+  </div>
+  <ul class="works">
+    <li class="card">
+      <a href="https://masaru-abe.com/" target="_blank">
+        <img class="card-img" src="../assets/work/portfolio.png" alt="">
+      </a>
+      <div class="card-content">
+        <h1 class="card-title jp">ポートフォリオサイト</h1>
+        <p class="card-text">This portfolio site</p>
+        <div class="items">
+          <div class="item">
 
-          <li class="card">
-            <img class="card-img" src="../assets/work/teamqno.png" alt="">
-            <div class="card-content">
-              <h1 class="card-title">Magic the Gathering<br>ファンサイト</h1>
-              <p class="card-text">Magic the Gathering fan site</p>
-              <div class="items">
-                <div class="item">
-                    <img src="../assets/lang/python.svg" alt="logo" class="item-image">
-                </div>
-                <div class="item">
-                    <img src="../assets/lang/wordpress.png" alt="logo" class="item-image">
-                </div>
-                <div class="item">
-                    <img src="../assets/lang/illustrator.svg" alt="logo" class="item-image">
-                </div>
+            <img src="../assets/lang/html-5.svg" alt="logo" class="item-image">
+
+          </div>
+          <div class="item">
+            <img src="../assets/lang/css-3.svg" alt="logo" class="item-image">
+          </div>
+          <div class="item">
+            <img src="../assets/lang/javascript.svg" alt="logo" class="item-image">
+          </div>
+          <div class="item">
+            <img src="../assets/lang/vue.svg" alt="logo" class="item-image">
+          </div>
+        </div>
+        <br>
+        <a href="https://masaru-abe.com/" class="card-link" target="_blank">Website</a>
+        <a href="" class="card-link github-link" target="_blank">Github</a>
+      </div>
+    </li>
+
+    <li class="card">
+      <a href="https://teamqno.work/" target="_blank">
+        <img class="card-img" src="../assets/work/teamqno.png" alt="">
+      </a>
+      <div class="card-content">
+        <h1 class="card-title">Magic the Gathering<br>ファンサイト</h1>
+        <p class="card-text">Magic the Gathering fan site</p>
+        <div class="items">
+          <div class="item">
+            <img src="../assets/lang/python.svg" alt="logo" class="item-image">
+          </div>
+          <div class="item">
+            <img src="../assets/lang/wordpress.png" alt="logo" class="item-image">
+          </div>
+          <div class="item">
+            <img src="../assets/lang/illustrator.svg" alt="logo" class="item-image">
+          </div>
+        </div>
+        <br>
+        <a href="https://teamqno.work/" class="card-link" target="_blank">Website</a>
+        <a href="https://teamqno.work/" class="card-link github-link" target="_blank">Github</a>
+      </div>
+    </li>
+  </ul>
 </div>
-              <br>
-              <a href="https://teamqno.work/" class="card-link">Website</a>
-              <a href="https://teamqno.work/" class="card-link github-link">Github</a>
-            </div>
-          </li>
-        </ul>
-    </div>
 </template>
 
 <script>
@@ -57,7 +65,7 @@
 
 
 <style>
-.works{
+.works {
   display: inline-flex;
   list-style-type: none;
   padding-left: 0;
@@ -66,34 +74,34 @@
   padding-right: 15%;
 }
 
-.works .items{
-    text-align: center;
-    padding-left: 0%;
-    padding-right: 0%;
-    margin-bottom: 5px;
-    font-family: vdl-linegr, Orbitron,sans-serif;
+.works .items {
+  text-align: center;
+  padding-left: 0%;
+  padding-right: 0%;
+  margin-bottom: 5px;
+  font-family: vdl-linegr, Orbitron, sans-serif;
 }
 
-.works .item{
-    margin :0px 0px;
-    display: inline-block;
-    width:60px;
+.works .item {
+  margin: 0px 0px;
+  display: inline-block;
+  width: 60px;
 }
 
-.works .item-comment{
-    width: 100px;
+.works .item-comment {
+  width: 100px;
 }
 
-.works .item-image{
-    height: 40px;
-    width: 40px;
+.works .item-image {
+  height: 40px;
+  width: 40px;
 }
 
-.jp{
+.jp {
   font-weight: 100;
 }
 
-.card-lang{
+.card-lang {
   font-weight: 500;
 }
 
@@ -109,24 +117,32 @@
   width: 100%;
   height: 200px;
   object-fit: contain;
+  transition-duration: 0.4s;
+  /*変化に掛かる時間*/
+  display: block;
+  -webkit-filter: grayscale(1);
+  filter: gray;
+  filter: grayscale(1);
 }
 
 .card-content {
   padding: 20px;
 }
+
 .card-title {
   font-size: 20px;
   margin-bottom: 20px;
   text-align: center;
   color: #EFE8D7;
 }
+
 .card-text {
   color: #EFE8D7;
   font-size: 14px;
   line-height: 1.5;
 }
 
-.card-link{
+.card-link {
   border: 2px solid #00aaff;
   background-color: #00aaff;
   text-decoration: none;
@@ -137,25 +153,27 @@
   transition: 0.4s;
   font-weight: bold;
 }
+
 .card-link:hover {
   background-color: #00aaff;
   color: #EFE8D7;
   opacity: 0.3;
 }
 
-.github-link{
+.github-link {
   border-color: #171515;
   background-color: #171515;
   color: #EFE8D7;
 }
+
 .github-link:hover {
   opacity: 0.3;
-  background-color:#171515;
+  background-color: #171515;
 }
 
 .work-title-shadow .content-title:before {
   position: absolute;
-  top:9.5%;
+  top: 9.5%;
   left: 5%;
   right: 5%;
   content: "Works";
@@ -168,36 +186,46 @@
 }
 
 
-@media screen and (max-width: 1300px){
-  .works{
-      display:inline-block;
-      padding-left: 1%;
-      padding-right: 1%;
-  }
-  .works .items{
-      text-align: center;
-      padding-left: 0%;
-      padding-right: 0%;
-      margin-bottom: 5px;
-      font-family: vdl-linegr, Orbitron,sans-serif;
+.card-img:hover {
+  -webkit-filter: grayscale(0);
+  filter: none;
+  filter: grayscale(0);
+  transform: scale(1.05);
+  transition-duration: 0.4s;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1300px) {
+  .works {
+    display: inline-block;
+    padding-left: 1%;
+    padding-right: 1%;
   }
 
-  .works .item{
-      margin :0px 0px;
-      display: inline-block;
-      width:60px;
+  .works .items {
+    text-align: center;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-bottom: 5px;
+    font-family: vdl-linegr, Orbitron, sans-serif;
   }
 
-  .works .item-comment{
-      width: 100px;
+  .works .item {
+    margin: 0px 0px;
+    display: inline-block;
+    width: 60px;
   }
 
-  .works .item-image{
-      height: 40px;
-      width: 40px;
+  .works .item-comment {
+    width: 100px;
   }
 
-  .card-link{
+  .works .item-image {
+    height: 40px;
+    width: 40px;
+  }
+
+  .card-link {
     border: 2px solid #00aaff;
     background-color: #00aaff;
     text-decoration: none;
@@ -209,7 +237,7 @@
     font-weight: bold;
   }
 
-  .github-link{
+  .github-link {
     background-color: #171515;
     border-color: #171515;
   }
@@ -220,20 +248,20 @@
 
 @media screen and (max-width: 1065px) {
   .work-title-shadow .content-title:before {
-    top:5.3%;
+    top: 5.3%;
   }
 
 }
 
 @media screen and (max-width: 768px) {
   .work-title-shadow .content-title:before {
-    top:5.3%;
+    top: 5.3%;
   }
 
 }
 
-@media screen and (max-width: 550px){
-  .card{
+@media screen and (max-width: 550px) {
+  .card {
     width: 280px;
     margin: 30px 0;
   }
