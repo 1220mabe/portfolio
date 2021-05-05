@@ -1,7 +1,6 @@
 <template>
 <div id="app" v-on:mousemove="callChildMethod()">
   <Mausestalker ref="child"></Mausestalker>
-
   <Header id="header"></Header>
   <div id="top-back">
     <div class="star-box">
@@ -93,21 +92,6 @@ export default {
   z-index: 1;
   height: 100vh;
   width: auto;
-}
-
-#cube {
-  z-index: 1;
-  user-select: none;
-  /* CSS3 */
-  -moz-user-select: none;
-  /* Firefox */
-  -webkit-user-select: none;
-  /* Safari、Chromeなど */
-  -ms-user-select: none;
-
-  position: absolute;
-  width: 5000px;
-
 }
 
 .about-back {
@@ -348,7 +332,6 @@ export default {
   height: 100px;
   width: 100px;
   transform: rotateZ(45deg);
-  repeat: ;
 }
 
 .star-box_2 {
@@ -358,7 +341,6 @@ export default {
   height: 100px;
   width: 100px;
   transform: rotateZ(45deg);
-  repeat: ;
 }
 
 .star-box_3 {
@@ -368,7 +350,6 @@ export default {
   height: 100px;
   width: 100px;
   transform: rotateZ(45deg);
-  repeat: ;
 }
 
 .star {
@@ -414,10 +395,6 @@ export default {
     transform: rotate(-360deg);
   }
 }
-
-
-
-
 
 @keyframes shooting {
   0% {
