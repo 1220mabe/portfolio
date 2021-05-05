@@ -223,12 +223,14 @@ p.photo img {
 }
 
 
-@media screen and (max-width: 768px) {
-  .section-grip__main-image{
-    margin: 0 auto;
-    width: 90%;
-    height: 90%;
-  }
+@media screen and (max-width: 568px) {
 
+  .section-grip__main-image{
+    position: relative;
+    margin: 0 20px 0 30px;
+    width: 300px;
+    height: 300px;
+  }
 }
+
 </style>
