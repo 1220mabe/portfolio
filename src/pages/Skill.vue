@@ -167,7 +167,9 @@
   transition-duration: 0.3s;
 }
 
-
+.skill-back h2{
+  margin-top: 40px
+}
 
 .icon{
     margin-top: 30px;
@@ -199,6 +201,34 @@
   }
   h3{
     font-size: 0.7em;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .items{
+      text-align: center;
+      padding-left: 7%;
+      padding-right: 7%;
+      margin-bottom: 19px;
+      font-family: vdl-linegr, Orbitron,sans-serif;
+  }
+
+  .item{
+      margin :7px 2px;
+      display: inline-block;
+      width: 100px;
+  }
+
+  .item-comment{
+      width: 100px;
+  }
+
+  .item-image{
+      height: 30px;
+      width: 40px;
+  }
+  h3{
+    font-size: 0.6em;
   }
 }
 
