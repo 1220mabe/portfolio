@@ -188,8 +188,8 @@ p.photo img {
   }
   .section-grip__main-image{
     margin: 0 auto;
-    height:95%;
-    width:95%;
+    width: 90%;
+    height: 90%;
   }
 
   .contact {
@@ -224,8 +224,11 @@ p.photo img {
 
 
 @media screen and (max-width: 768px) {
-
-
+  .section-grip__main-image{
+    margin: 0 auto;
+    width: 90%;
+    height: 90%;
+  }
 
 }
 </style>
