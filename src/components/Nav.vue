@@ -33,9 +33,16 @@ export default {
 
 
 <style>
+.bm-burger-bars {
+  background-color: #EFE8D7;
+  color: #EFE8D7;
+}
+
 .line-style {
+  color: #EFE8D7;
   background-color: #EFE8D7;
 }
+
 
 .nav-button {
   position: relative;
@@ -84,6 +91,7 @@ export default {
 }
 
 @media screen and (max-width: 768px) {
+
   .nav-button {
     display: none;
   }
