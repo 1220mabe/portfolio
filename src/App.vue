@@ -24,12 +24,12 @@
   <div class="star-box" id="star-box">
     <div class="star" id="star"></div>
   </div>
-  <div class="star-box-2" id="star-box-2">
-    <div class="star-2" id="star-2"></div>
-  </div>
-  <div class="star-box-3" id="star-box-3">
-    <div class="star-3" id="star-3"></div>
-  </div>
+<!--   <div class="star-box-2" id="star-box-2">
+  <div class="star-2" id="star-2"></div>
+</div>
+<div class="star-box-3" id="star-box-3">
+  <div class="star-3" id="star-3"></div>
+</div> -->
   <div class="nav-res">
     <router-link to="/">Top</router-link>
     <router-link to="/about">About</router-link>
@@ -314,7 +314,7 @@ export default {
   transform: rotateZ(45deg)!important;
 }
 
-#star-box-2 {
+/* #star-box-2 {
   position: absolute!important;
   top: 49%!important;
   left: 46%!important;
@@ -330,7 +330,7 @@ export default {
   height: 100px!important;
   width: 100px!important;
   transform: rotateZ(45deg)!important;
-}
+} */
 
 #star {
   height: 0;
@@ -343,7 +343,7 @@ export default {
   animation-iteration-count: infinite;
 }
 
-#star-2 {
+/* #star-2 {
   height: 0;
   width: 2px;
   background: linear-gradient(transparent, #EFE8D7);
@@ -363,7 +363,7 @@ export default {
   animation-timing-function: linear;
   animation-delay: 5s;
   animation-iteration-count: infinite;
-}
+} */
 
 
 @keyframes rotate-anime {
@@ -403,7 +403,7 @@ export default {
   }
 }
 
-@keyframes shooting-2 {
+/* @keyframes shooting-2 {
   0% {
     height: 0;
     opacity: 50%;
@@ -454,7 +454,7 @@ export default {
     height: 0;
     opacity: 50%;
   }
-}
+} */
 
 #earth {
   opacity: 0.08;
