@@ -3,7 +3,15 @@
   <Mausestalker ref="child"></Mausestalker>
   <Header id="header"></Header>
   <div id="top-back">
-
+    <div class="star-box" id="star-box">
+      <div class="star" id="star"></div>
+    </div>
+    <div class="star-box-2" id="star-box-2">
+      <div class="star-2" id="star-2"></div>
+    </div>
+    <div class="star-box-3" id="star-box-3">
+      <div class="star-3" id="star-3"></div>
+    </div>
     <kinesis-container class="container">
       <kinesis-element :strength="-50">
         <vue-particles color="#EFE8D7" :particleOpacity="0.5" :particlesNumber="120" shapeType="circle" :particleSize="3" linesColor="#EFE8D7" :lineLinked="false" :hoverEffect="false" :clickEffect="true" clickMode="push" class="particles">
@@ -21,15 +29,7 @@
     <div id="earth"></div>
 
   </div>
-  <div class="star-box" id="star-box">
-    <div class="star" id="star"></div>
-  </div>
-  <div class="star-box-2" id="star-box-2">
-    <div class="star-2" id="star-2"></div>
-  </div>
-  <div class="star-box-3" id="star-box-3">
-    <div class="star-3" id="star-3"></div>
-  </div>
+
   <div class="nav-res">
     <router-link to="/">Top</router-link>
     <router-link to="/about">About</router-link>
