@@ -3,7 +3,15 @@
   <Mausestalker ref="child"></Mausestalker>
   <Header id="header"></Header>
   <div id="top-back">
-
+    <div class="star-box" id="star-box">
+      <div class="star" id="star"></div>
+    </div>
+    <div class="star-box_2" id="star-box_2">
+      <div class="star_2" id="star_2"></div>
+    </div>
+    <div class="star-box_3" id="star-box_3">
+      <div class="star_3" id="star_3"></div>
+    </div>
     <kinesis-container class="container">
       <kinesis-element :strength="-50">
         <vue-particles color="#EFE8D7" :particleOpacity="0.5" :particlesNumber="120" shapeType="circle" :particleSize="3" linesColor="#EFE8D7" :lineLinked="false" :hoverEffect="false" :clickEffect="true" clickMode="push" class="particles">
@@ -19,15 +27,7 @@
       </kinesis-element>
     </kinesis-container>
     <div id="earth"></div>
-    <div class="star-box" id="star-box">
-      <div class="star" id="star"></div>
-    </div>
-    <div class="star-box_2" id="star-box_2">
-      <div class="star_2" id="star_2"></div>
-    </div>
-    <div class="star-box_3" id="star-box_3">
-      <div class="star_3" id="star_3"></div>
-    </div>
+
   </div>
 
   <div class="nav-res">
@@ -329,36 +329,36 @@ export default {
 }
 
 #star {
-  height: 0!important;
-  width: 2px!important;
-  background: linear-gradient(transparent, #EFE8D7)!important;
-  animation-name: shooting!important;
-  animation-duration: 8s!important;
-  animation-timing-function: linear!important;
-  animation-delay: 4s!important;
-  animation-iteration-count: infinite!important;
+  height: 0;
+  width: 2px;
+  background: linear-gradient(transparent, #EFE8D7);
+  animation-name: shooting;
+  animation-duration: 8s;
+  animation-timing-function: linear;
+  animation-delay: 4s;
+  animation-iteration-count: infinite;
 }
 
 #star_2 {
-  height: 0!important;
-  width: 2px!important;
-  background: linear-gradient(transparent, #EFE8D7)!important;
-  animation-name: shoo ting!important;
-  animation-duration: 8s!important;
-  animation-timing-function: linear!important;
-  animation-delay: 4.5s!important;
-  animation-iteration-count: infinite!important;
+  height: 0;
+  width: 2px;
+  background: linear-gradient(transparent, #EFE8D7);
+  animation-name: shooting;
+  animation-duration: 8s;
+  animation-timing-function: linear;
+  animation-delay: 4.5s;
+  animation-iteration-count: infinite;
 }
 
 #star_3 {
-  height: 0!important;
-  width: 2px!important;
-  background: linear-gradient(transparent, #EFE8D7)!important;
-  animation-name: shooting!important;
-  animation-duration: 8s!important;
-  animation-timing-function: linear!important;
-  animation-delay: 5s!important;
-  animation-iteration-count: infinite!important;
+  height: 0;
+  width: 2px;
+  background: linear-gradient(transparent, #EFE8D7);
+  animation-name: shooting;
+  animation-duration: 8s;
+  animation-timing-function: linear;
+  animation-delay: 5s;
+  animation-iteration-count: infinite;
 }
 
 
@@ -374,28 +374,28 @@ export default {
 
 @keyframes shooting {
   0% {
-    height: 0!important;
-    opacity: 50%!important;
+    height: 0;
+    opacity: 50%;
   }
 
-  6.25% {
-    height: 60px!important;
-    opacity: 100%!important;
+  6.3% {
+    height: 60px;
+    opacity: 100%;
   }
 
   12.5% {
-    height: 80px!important;
-    opacity: 0!important;
+    height: 80px;
+    opacity: 0;
   }
 
-  12.51% {
-    height: 0!important;
-    opacity: 50%!important;
+  12.6% {
+    height: 0;
+    opacity: 50%;
   }
 
   100% {
-    height: 0!important;
-    opacity: 50%!important;
+    height: 0;
+    opacity: 50%;
   }
 }
 
