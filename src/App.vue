@@ -307,8 +307,8 @@ export default {
 
 #star-box {
   position: absolute!important;
-  top: 370px!important;
-  left: 340px!important;
+  top: 37%!important;
+  left: 34%!important;
   height: 100px!important;
   width: 100px!important;
   transform: rotateZ(45deg)!important;
@@ -316,8 +316,8 @@ export default {
 
 #star-box-2 {
   position: absolute!important;
-  top: 490px!important;
-  left: 460px!important;
+  top: 49%!important;
+  left: 46%!important;
   height: 100px!important;
   width: 100px!important;
   transform: rotateZ(45deg)!important;
@@ -325,8 +325,8 @@ export default {
 
 #star-box-3 {
   position: absolute!important;
-  top: 390px!important;
-  left: 640px!important;
+  top: 39%!important;
+  left: 64%!important;
   height: 100px!important;
   width: 100px!important;
   transform: rotateZ(45deg)!important;
@@ -335,7 +335,7 @@ export default {
 #star {
   height: 0;
   width: 2px;
-  background: linear-gradient(transparent, #EFE8D7);
+  background: linear-gradient(to right,transparent, #EFE8D7);
   animation-name: shooting;
   animation-duration: 8s;
   animation-timing-function: linear;
@@ -346,7 +346,7 @@ export default {
 #star-2 {
   height: 0;
   width: 2px;
-  background: linear-gradient(transparent, #EFE8D7);
+  background: linear-gradient(to right,transparent, #EFE8D7);
   animation-name: shooting-2;
   animation-duration: 8s;
   animation-timing-function: linear;
@@ -357,7 +357,7 @@ export default {
 #star-3 {
   height: 0;
   width: 2px;
-  background: linear-gradient(transparent, #EFE8D7);
+  background: linear-gradient(to right,transparent, #EFE8D7);
   animation-name: shooting-3;
   animation-duration: 8s;
   animation-timing-function: linear;
