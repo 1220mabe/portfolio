@@ -3,15 +3,7 @@
   <Mausestalker ref="child"></Mausestalker>
   <Header id="header"></Header>
   <div id="top-back">
-    <div class="star-box" id="star-box">
-      <div class="star" id="star"></div>
-    </div>
-    <div class="star-box_2" id="star-box_2">
-      <div class="star_2" id="star_2"></div>
-    </div>
-    <div class="star-box_3" id="star-box_3">
-      <div class="star_3" id="star_3"></div>
-    </div>
+
     <kinesis-container class="container">
       <kinesis-element :strength="-50">
         <vue-particles color="#EFE8D7" :particleOpacity="0.5" :particlesNumber="120" shapeType="circle" :particleSize="3" linesColor="#EFE8D7" :lineLinked="false" :hoverEffect="false" :clickEffect="true" clickMode="push" class="particles">
@@ -26,7 +18,16 @@
 
       </kinesis-element>
     </kinesis-container>
-<div id="earth"></div>
+    <div id="earth"></div>
+    <div class="star-box" id="star-box">
+      <div class="star" id="star"></div>
+    </div>
+    <div class="star-box_2" id="star-box_2">
+      <div class="star_2" id="star_2"></div>
+    </div>
+    <div class="star-box_3" id="star-box_3">
+      <div class="star_3" id="star_3"></div>
+    </div>
   </div>
 
   <div class="nav-res">
@@ -165,7 +166,7 @@ export default {
 
 
 .content-title {
-  font-family: vdl-linegr, Orbitron,sans-serif;
+  font-family: vdl-linegr, Orbitron, sans-serif;
   color: #EFE8D7;
 }
 
@@ -399,42 +400,53 @@ export default {
 }
 
 #earth {
-    opacity: 0.08;
-    position: absolute;
-    bottom:-8%;
-    right:-8%;
-    width: 280px;
-    height: 280px;
-    background: url(./assets/anime/earthmap.jpg);
-    border-radius: 50%;
-    background-size: 610px;
-    box-shadow: inset 0px 0px 0px 0px #EFE8D7,
+  opacity: 0.08;
+  position: absolute;
+  bottom: -8%;
+  right: -8%;
+  width: 280px;
+  height: 280px;
+  background: url(./assets/anime/earthmap.jpg);
+  border-radius: 50%;
+  background-size: 610px;
+  box-shadow: inset 0px 0px 0px 0px #EFE8D7,
     inset 0px 0px 0px 0px #0A63BB;
-    transform:rotate(23.4deg);
-    animation-name: rotate;
-    animation-duration: 12s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    -webkit-animation-name: rotate;
-    -webkit-animation-duration: 12s;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
+  transform: rotate(23.4deg);
+  animation-name: rotate;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-name: rotate;
+  -webkit-animation-duration: 12s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
   transition-duration: 0.7s;
 }
 
 #earth:hover {
-  transform:rotate(-23.4deg);
+  transform: rotate(-23.4deg);
   transform: scale(1.05);
   transition-duration: 0.7s;
 }
 
 @keyframes rotate {
-    from { background-position: 0px 0px; }
-    to { background-position: 500px 0px; }
+  from {
+    background-position: 0px 0px;
+  }
+
+  to {
+    background-position: 500px 0px;
+  }
 }
+
 @-webkit-keyframes rotate {
-    from { background-position: 0px 0px; }
-    to { background-position: 500px 0px; }
+  from {
+    background-position: 0px 0px;
+  }
+
+  to {
+    background-position: 500px 0px;
+  }
 }
 
 @media screen and (max-width: 2300px) {
@@ -474,7 +486,7 @@ export default {
     opacity: 0.3;
     width: 100px;
     right: 20px;
-    bottom: 560px;
+    bottom: 600px;
     animation: rotate-anime 20s linear infinite;
   }
 
