@@ -382,7 +382,7 @@ export default {
     opacity: 0.5;
   }
 
-  6.3% {
+  6.25% {
     height: 60px;
     opacity: 1.0;
   }
@@ -392,7 +392,7 @@ export default {
     opacity: 0%;
   }
 
-  12.6% {
+  12.51% {
     height: 0px;
     opacity: 0.5;
   }
@@ -408,8 +408,7 @@ export default {
     height: 0px;
     opacity: 0.5;
   }
-
-  6.3% {
+  6.25% {
     height: 60px;
     opacity: 1.0;
   }
@@ -419,11 +418,10 @@ export default {
     opacity: 0%;
   }
 
-  12.6% {
+  12.51% {
     height: 0px;
     opacity: 0.5;
   }
-
   100% {
     height: 0px;
     opacity: 0.5;
@@ -435,7 +433,7 @@ export default {
     opacity: 0.5;
   }
 
-  6.3% {
+  6.25% {
     height: 60px;
     opacity: 1.0;
   }
@@ -445,7 +443,7 @@ export default {
     opacity: 0%;
   }
 
-  12.6% {
+  12.51% {
     height: 0px;
     opacity: 0.5;
   }
