@@ -3,15 +3,7 @@
   <Mausestalker ref="child"></Mausestalker>
   <Header id="header"></Header>
   <div id="top-back">
-    <div class="star-box" id="star-box">
-      <div class="star" id="star"></div>
-    </div>
-    <div class="star-box_2" id="star-box_2">
-      <div class="star_2" id="star_2"></div>
-    </div>
-    <div class="star-box_3" id="star-box_3">
-      <div class="star_3" id="star_3"></div>
-    </div>
+
     <kinesis-container class="container">
       <kinesis-element :strength="-50">
         <vue-particles color="#EFE8D7" :particleOpacity="0.5" :particlesNumber="120" shapeType="circle" :particleSize="3" linesColor="#EFE8D7" :lineLinked="false" :hoverEffect="false" :clickEffect="true" clickMode="push" class="particles">
@@ -29,7 +21,15 @@
     <div id="earth"></div>
 
   </div>
-
+  <div class="star-box" id="star-box">
+    <div class="star" id="star"></div>
+  </div>
+  <div class="star-box-2" id="star-box-2">
+    <div class="star-2" id="star-2"></div>
+  </div>
+  <div class="star-box-3" id="star-box-3">
+    <div class="star-3" id="star-3"></div>
+  </div>
   <div class="nav-res">
     <router-link to="/">Top</router-link>
     <router-link to="/about">About</router-link>
@@ -314,7 +314,7 @@ export default {
   transform: rotateZ(45deg)!important;
 }
 
-#star-box_2 {
+#star-box-2 {
   position: absolute!important;
   top: 49%!important;
   left: 46%!important;
@@ -323,7 +323,7 @@ export default {
   transform: rotateZ(45deg)!important;
 }
 
-#star-box_3 {
+#star-box-3 {
   position: absolute!important;
   top: 39%!important;
   left: 64%!important;
@@ -343,7 +343,7 @@ export default {
   animation-iteration-count: infinite;
 }
 
-#star_2 {
+#star-2 {
   height: 0;
   width: 2px;
   background: linear-gradient(transparent, #EFE8D7);
@@ -354,7 +354,7 @@ export default {
   animation-iteration-count: infinite;
 }
 
-#star_3 {
+#star-3 {
   height: 0;
   width: 2px;
   background: linear-gradient(transparent, #EFE8D7);
