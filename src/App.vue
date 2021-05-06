@@ -3,29 +3,30 @@
   <Mausestalker ref="child"></Mausestalker>
   <Header id="header"></Header>
   <div id="top-back">
-    <div class="star-box">
-      <div class="star"></div>
+    <div class="star-box" id="star-box">
+      <div class="star" id="star"></div>
     </div>
-    <div class="star-box_2">
-      <div class="star_2"></div>
+    <div class="star-box_2" id="star-box_2">
+      <div class="star_2" id="star_2"></div>
     </div>
-    <div class="star-box_3">
-      <div class="star_3"></div>
+    <div class="star-box_3" id="star-box_3">
+      <div class="star_3" id="star_3"></div>
     </div>
     <kinesis-container class="container">
       <kinesis-element :strength="-50">
         <vue-particles color="#EFE8D7" :particleOpacity="0.5" :particlesNumber="120" shapeType="circle" :particleSize="3" linesColor="#EFE8D7" :lineLinked="false" :hoverEffect="false" :clickEffect="true" clickMode="push" class="particles">
         </vue-particles>
       </kinesis-element>
-      <kinesis-element :strength="-25">
+      <kinesis-element :strength="10">
         <div class="rotate-hover">
           <div class="rotate-anime_2"><img class="" src="./assets/anime/zgzgcircle.svg" alt="anime"></div>
         </div>
       </kinesis-element>
-      <kinesis-element :strength="-25">
+      <kinesis-element :strength="-5">
 
       </kinesis-element>
     </kinesis-container>
+<div id="earth"></div>
   </div>
 
   <div class="nav-res">
@@ -279,16 +280,13 @@ export default {
 
 /* Animation */
 .rotate-anime_2 {
-  user-select: none;
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
   position: absolute;
   opacity: 0.3;
-  width: 200px;
-  right: 100px;
-  bottom: 200px;
+  width: 100px;
+  right: 20px;
+  bottom: 560px;
   animation: rotate-anime 20s linear infinite;
+  transition-duration: 0.7s;
 }
 
 .rotate-hover {
@@ -302,7 +300,7 @@ export default {
 
 /* 流れ星 */
 
-.star-box {
+#star-box {
   position: absolute;
   top: 37%;
   left: 34%;
@@ -311,7 +309,7 @@ export default {
   transform: rotateZ(45deg);
 }
 
-.star-box_2 {
+#star-box_2 {
   position: absolute;
   top: 49%;
   left: 46%;
@@ -320,7 +318,7 @@ export default {
   transform: rotateZ(45deg);
 }
 
-.star-box_3 {
+#star-box_3 {
   position: absolute;
   top: 39%;
   left: 64%;
@@ -329,7 +327,7 @@ export default {
   transform: rotateZ(45deg);
 }
 
-.star {
+#star {
   height: 0;
   width: 2px;
   background: linear-gradient(transparent, #EFE8D7);
@@ -340,7 +338,7 @@ export default {
   animation-iteration-count: infinite;
 }
 
-.star_2 {
+#star_2 {
   height: 0;
   width: 2px;
   background: linear-gradient(transparent, #EFE8D7);
@@ -351,7 +349,7 @@ export default {
   animation-iteration-count: infinite;
 }
 
-.star_3 {
+#star_3 {
   height: 0;
   width: 2px;
   background: linear-gradient(transparent, #EFE8D7);
@@ -400,6 +398,45 @@ export default {
   }
 }
 
+#earth {
+    opacity: 0.08;
+    position: absolute;
+    bottom:-8%;
+    right:-8%;
+    width: 280px;
+    height: 280px;
+    background: url(./assets/anime/earthmap.jpg);
+    border-radius: 50%;
+    background-size: 610px;
+    box-shadow: inset 0px 0px 0px 0px #EFE8D7,
+    inset 0px 0px 0px 0px #0A63BB;
+    transform:rotate(23.4deg);
+    animation-name: rotate;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -webkit-animation-name: rotate;
+    -webkit-animation-duration: 12s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+  transition-duration: 0.7s;
+}
+
+#earth:hover {
+  transform:rotate(-23.4deg);
+  transform: scale(1.05);
+  transition-duration: 0.7s;
+}
+
+@keyframes rotate {
+    from { background-position: 0px 0px; }
+    to { background-position: 500px 0px; }
+}
+@-webkit-keyframes rotate {
+    from { background-position: 0px 0px; }
+    to { background-position: 500px 0px; }
+}
+
 @media screen and (max-width: 2300px) {
   #top-back {
     position: fixed;
@@ -434,10 +471,10 @@ export default {
     -webkit-user-select: none;
     -ms-user-select: none;
     position: absolute;
-    opacity: 0.4;
+    opacity: 0.3;
     width: 100px;
     right: 20px;
-    bottom: 100px;
+    bottom: 560px;
     animation: rotate-anime 20s linear infinite;
   }
 
