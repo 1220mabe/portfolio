@@ -40,7 +40,7 @@ export default {
 
 .line-style {
   color: #EFE8D7;
-  background-color: #EFE8D7;
+  background-color: #EFE8D7 ！important;
 }
 
 
