@@ -329,36 +329,36 @@ export default {
 }
 
 #star {
-  height: 0;
-  width: 2px;
-  background: linear-gradient(transparent, #EFE8D7);
-  animation-name: shooting;
-  animation-duration: 8s;
-  animation-timing-function: linear;
-  animation-delay: 4s;
-  animation-iteration-count: infinite;
+  height: 0!important;
+  width: 2px!important;
+  background: linear-gradient(transparent, #EFE8D7)!important;
+  animation-name: shooting!important;
+  animation-duration: 8s!important;
+  animation-timing-function: linear!important;
+  animation-delay: 4s!important;
+  animation-iteration-count: infinite!important;
 }
 
 #star_2 {
-  height: 0;
-  width: 2px;
-  background: linear-gradient(transparent, #EFE8D7);
-  animation-name: shooting;
-  animation-duration: 8s;
-  animation-timing-function: linear;
-  animation-delay: 4.5s;
-  animation-iteration-count: infinite;
+  height: 0!important;
+  width: 2px!important;
+  background: linear-gradient(transparent, #EFE8D7)!important;
+  animation-name: shoo ting!important;
+  animation-duration: 8s!important;
+  animation-timing-function: linear!important;
+  animation-delay: 4.5s!important;
+  animation-iteration-count: infinite!important;
 }
 
 #star_3 {
-  height: 0;
-  width: 2px;
-  background: linear-gradient(transparent, #EFE8D7);
-  animation-name: shooting;
-  animation-duration: 8s;
-  animation-timing-function: linear;
-  animation-delay: 5s;
-  animation-iteration-count: infinite;
+  height: 0!important;
+  width: 2px!important;
+  background: linear-gradient(transparent, #EFE8D7)!important;
+  animation-name: shooting!important;
+  animation-duration: 8s!important;
+  animation-timing-function: linear!important;
+  animation-delay: 5s!important;
+  animation-iteration-count: infinite!important;
 }
 
 
@@ -410,7 +410,7 @@ export default {
   border-radius: 50%;
   background-size: 610px;
   box-shadow: inset 0px 0px 0px 0px #EFE8D7,
-    inset 0px 0px 0px 0px #0A63BB;
+  inset 0px 0px 0px 0px #0A63BB;
   transform: rotate(23.4deg);
   animation-name: rotate;
   animation-duration: 12s;
