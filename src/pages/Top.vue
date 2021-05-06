@@ -139,17 +139,24 @@ export default {
   animation-fill-mode: both;
   color: transparent;
   text-shadow: 0px 0px 6px #EFE8D7;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 
 
 .textbox-mobile {
   display: none;
-}
-
-
-.top-text-mobile {
-  display: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 
@@ -173,6 +180,10 @@ export default {
   animation-fill-mode: both;
   color: transparent;
   text-shadow: 0px 0px 6px #EFE8D7;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 @keyframes zoomIn {
@@ -206,6 +217,10 @@ export default {
     display: grid;
     justify-content: center;
     grid-template-columns: 32px 32px 28px 28px 28px 32px 32px 28px 28px 28px;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
   }
 
   .text-square {
@@ -213,6 +228,10 @@ export default {
   }
   .textbox-mobile div {
     transition: all 2.5s cubic-bezier(0, .08, .05, 1);
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
   }
 
   #main h2 {
