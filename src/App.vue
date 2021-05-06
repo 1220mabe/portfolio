@@ -337,7 +337,7 @@ export default {
   width: 2px;
   background: linear-gradient(transparent, #EFE8D7);
   animation-name: shooting;
-  animation-duration: 8s;
+  animation-duration: 2s;
   animation-timing-function: linear;
   animation-delay: 4s;
   animation-iteration-count: infinite;
@@ -382,25 +382,17 @@ export default {
     opacity: 50%;
   }
 
-  6.3% {
+  50% {
     height: 60px;
     opacity: 100%;
   }
 
-  12.5% {
+  100% {
     height: 80px;
     opacity: 0;
   }
 
-  12.6% {
-    height: 0;
-    opacity: 50%;
-  }
 
-  100% {
-    height: 0;
-    opacity: 50%;
-  }
 }
 
 /* @keyframes shooting-2 {
