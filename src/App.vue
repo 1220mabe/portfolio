@@ -24,12 +24,12 @@
   <div class="star-box" id="star-box">
     <div class="star" id="star"></div>
   </div>
-<!--   <div class="star-box-2" id="star-box-2">
-  <div class="star-2" id="star-2"></div>
-</div>
-<div class="star-box-3" id="star-box-3">
-  <div class="star-3" id="star-3"></div>
-</div> -->
+  <div class="star-box-2" id="star-box-2">
+    <div class="star-2" id="star-2"></div>
+  </div>
+  <div class="star-box-3" id="star-box-3">
+    <div class="star-3" id="star-3"></div>
+  </div>
   <div class="nav-res">
     <router-link to="/">Top</router-link>
     <router-link to="/about">About</router-link>
@@ -307,17 +307,17 @@ export default {
 
 #star-box {
   position: absolute!important;
-  top: 37%!important;
-  left: 34%!important;
+  top: 370px!important;
+  left: 340px!important;
   height: 100px!important;
   width: 100px!important;
   transform: rotateZ(45deg)!important;
 }
 
-/* #star-box-2 {
+#star-box-2 {
   position: absolute!important;
-  top: 49%!important;
-  left: 46%!important;
+  top: 490px!important;
+  left: 460px!important;
   height: 100px!important;
   width: 100px!important;
   transform: rotateZ(45deg)!important;
@@ -325,25 +325,25 @@ export default {
 
 #star-box-3 {
   position: absolute!important;
-  top: 39%!important;
-  left: 64%!important;
+  top: 390px!important;
+  left: 640px!important;
   height: 100px!important;
   width: 100px!important;
   transform: rotateZ(45deg)!important;
-} */
+}
 
 #star {
   height: 0;
   width: 2px;
   background: linear-gradient(transparent, #EFE8D7);
   animation-name: shooting;
-  animation-duration: 2s;
+  animation-duration: 8s;
   animation-timing-function: linear;
   animation-delay: 4s;
   animation-iteration-count: infinite;
 }
 
-/* #star-2 {
+#star-2 {
   height: 0;
   width: 2px;
   background: linear-gradient(transparent, #EFE8D7);
@@ -363,7 +363,7 @@ export default {
   animation-timing-function: linear;
   animation-delay: 5s;
   animation-iteration-count: infinite;
-} */
+}
 
 
 @keyframes rotate-anime {
@@ -382,20 +382,28 @@ export default {
     opacity: 50%;
   }
 
-  50% {
+  6.3% {
     height: 60px;
     opacity: 100%;
   }
 
-  100% {
+  12.5% {
     height: 80px;
     opacity: 0;
   }
 
+  12.6% {
+    height: 0;
+    opacity: 50%;
+  }
 
+  100% {
+    height: 0;
+    opacity: 50%;
+  }
 }
 
-/* @keyframes shooting-2 {
+@keyframes shooting-2 {
   0% {
     height: 0;
     opacity: 50%;
@@ -446,7 +454,7 @@ export default {
     height: 0;
     opacity: 50%;
   }
-} */
+}
 
 #earth {
   opacity: 0.08;
