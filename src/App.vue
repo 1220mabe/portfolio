@@ -285,9 +285,13 @@ export default {
   opacity: 0.3;
   width: 100px;
   right: 20px;
-  bottom: 560px;
+  bottom: 650px;
   animation: rotate-anime 20s linear infinite;
   transition-duration: 0.7s;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 .rotate-hover {
@@ -302,30 +306,30 @@ export default {
 /* 流れ星 */
 
 #star-box {
-  position: absolute;
-  top: 37%;
-  left: 34%;
-  height: 100px;
-  width: 100px;
-  transform: rotateZ(45deg);
+  position: absolute!important;
+  top: 37%!important;
+  left: 34%!important;
+  height: 100px!important;
+  width: 100px!important;
+  transform: rotateZ(45deg)!important;
 }
 
 #star-box_2 {
-  position: absolute;
-  top: 49%;
-  left: 46%;
-  height: 100px;
-  width: 100px;
-  transform: rotateZ(45deg);
+  position: absolute!important;
+  top: 49%!important;
+  left: 46%!important;
+  height: 100px!important;
+  width: 100px!important;
+  transform: rotateZ(45deg)!important;
 }
 
 #star-box_3 {
-  position: absolute;
-  top: 39%;
-  left: 64%;
-  height: 100px;
-  width: 100px;
-  transform: rotateZ(45deg);
+  position: absolute!important;
+  top: 39%!important;
+  left: 64%!important;
+  height: 100px!important;
+  width: 100px!important;
+  transform: rotateZ(45deg)!important;
 }
 
 #star {
@@ -486,7 +490,7 @@ export default {
     opacity: 0.3;
     width: 100px;
     right: 20px;
-    bottom: 600px;
+    bottom: 650px;
     animation: rotate-anime 20s linear infinite;
   }
 
