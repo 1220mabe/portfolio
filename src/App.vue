@@ -374,28 +374,28 @@ export default {
 
 @keyframes shooting {
   0% {
-    height: 0;
-    opacity: 50%;
+    height: 0!important;
+    opacity: 50%!important;
   }
 
   6.25% {
-    height: 60px;
-    opacity: 100%;
+    height: 60px!important;
+    opacity: 100%!important;
   }
 
   12.5% {
-    height: 80px;
-    opacity: 0;
+    height: 80px!important;
+    opacity: 0!important;
   }
 
   12.51% {
-    height: 0;
-    opacity: 50%;
+    height: 0!important;
+    opacity: 50%!important;
   }
 
   100% {
-    height: 0;
-    opacity: 50%;
+    height: 0!important;
+    opacity: 50%!important;
   }
 }
 
