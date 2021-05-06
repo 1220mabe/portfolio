@@ -33,14 +33,14 @@ export default {
 
 
 <style>
-.bm-burger-bars {
-  background-color: #EFE8D7;
-  color: #EFE8D7;
+.bm-burger-bars{
+  background-color: #EFE8D7!important;
+  color: #EFE8D7!important;
 }
 
-.line-style {
-  color: #EFE8D7;
-  background-color: #EFE8D7;
+.line-style{
+  color: #EFE8D7!important;
+  background-color: #EFE8D7 !important;
 }
 
 
@@ -117,8 +117,8 @@ export default {
   }
 
   .bm-burger-bars {
-    background-color: #EFE8D7;
-    color: #EFE8D7;
+    background-color: #EFE8D7!important;
+    color: #EFE8D7!important;
   }
 
   .line-style {
@@ -126,8 +126,8 @@ export default {
     height: 7px;
     left: 0px;
     right: 0px;
-    color: #EFE8D7;
-    background-color: #EFE8D7;
+    color: #EFE8D7!important;
+    background-color: #EFE8D7!important;
   }
   .cross-style {
     position: absolute;
