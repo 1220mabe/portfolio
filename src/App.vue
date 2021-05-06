@@ -333,7 +333,7 @@ export default {
 }
 
 #star {
-  height: 0;
+  height: 0px;
   width: 2px;
   background: linear-gradient(to right,transparent, #EFE8D7);
   animation-name: shooting;
@@ -344,7 +344,7 @@ export default {
 }
 
 #star-2 {
-  height: 0;
+  height: 0px;
   width: 2px;
   background: linear-gradient(to right,transparent, #EFE8D7);
   animation-name: shooting-2;
@@ -355,7 +355,7 @@ export default {
 }
 
 #star-3 {
-  height: 0;
+  height: 0px;
   width: 2px;
   background: linear-gradient(to right,transparent, #EFE8D7);
   animation-name: shooting-3;
@@ -378,81 +378,81 @@ export default {
 
 @keyframes shooting {
   0% {
-    height: 0;
-    opacity: 50%;
+    height: 0px;
+    opacity: 0.5;
   }
 
   6.3% {
     height: 60px;
-    opacity: 100%;
+    opacity: 1.0;
   }
 
   12.5% {
     height: 80px;
-    opacity: 0;
+    opacity: 0%;
   }
 
   12.6% {
-    height: 0;
-    opacity: 50%;
+    height: 0px;
+    opacity: 0.5;
   }
 
   100% {
-    height: 0;
-    opacity: 50%;
+    height: 0px;
+    opacity: 0.5;
   }
 }
 
 @keyframes shooting-2 {
   0% {
-    height: 0;
-    opacity: 50%;
+    height: 0px;
+    opacity: 0.5;
   }
 
   6.3% {
     height: 60px;
-    opacity: 100%;
+    opacity: 1.0;
   }
 
   12.5% {
     height: 80px;
-    opacity: 0;
+    opacity: 0%;
   }
 
   12.6% {
-    height: 0;
-    opacity: 50%;
+    height: 0px;
+    opacity: 0.5;
   }
 
   100% {
-    height: 0;
-    opacity: 50%;
+    height: 0px;
+    opacity: 0.5;
   }
 }
 @keyframes shooting-3 {
   0% {
-    height: 0;
-    opacity: 50%;
+    height: 0px;
+    opacity: 0.5;
   }
 
   6.3% {
     height: 60px;
-    opacity: 100%;
+    opacity: 1.0;
   }
 
   12.5% {
     height: 80px;
-    opacity: 0;
+    opacity: 0%;
   }
 
   12.6% {
-    height: 0;
-    opacity: 50%;
+    height: 0px;
+    opacity: 0.5;
   }
 
   100% {
-    height: 0;
-    opacity: 50%;
+    height: 0px;
+    opacity: 0.5;
   }
 }
 
