@@ -23,7 +23,7 @@
       <div class="me">
         <h2>Education & Work Experience</h2>
         <h3>1992. 12 <p style="display:inline;">誕生</p></h3>
-        <p class="text">岩手県紫波町で学生まで過ごす。小学校の同級生は9人というのんのんびよりな地域で、ザリガニをとったり、サッカーをして過ごす。<br><br></p>
+        <p class="text">岩手県紫波町で中学生まで過ごす。小学校の同級生は9人という、のんのんびよりな地域で、ザリガニをとったりサッカーをして過ごす。<br><br></p>
 
         <h3>2011. 03 <p style="display:inline;">岩手県立盛岡第一高等学校 卒業</p></h3>
         <p class="text">ラグビー部に入部し、キャプテンも勤めた。部活に気持ちがのっていたため授業は常に凌ぎに徹した。<br><br></p>
@@ -35,7 +35,7 @@
         <h3>2017. 04 <p style="display:inline;">株式会社日立ソリューションズ 入社</p></h3>
         <p class="text">愛知県で製造業向け製品管理パッケージ導入やCAD製品カスタマイズなどのSI事業を実施。<br><br></p>
         <h3>2019. 10  <p style="display:inline;">アマノ株式会社 入社</p></h3>
-        <p class="text">小・中・大企業向けに人事労務管理パッケージや入退室管理システムを導入<br><br></p>
+        <p class="text">小・中・大企業向けに人事労務管理パッケージや入退室管理システムを導入。<br><br></p>
         <h3>2020. 11 <p style="display:inline;">デジタルハリウッドSTUDIObyLIG上野校 入校</p></h3>
         <p class="text">コロナ禍により、家にいる時間が長くなり以前から興味のあったWebやデザインを学習。<br><br></p>
         <h2>Certification</h2>
