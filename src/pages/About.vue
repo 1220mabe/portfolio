@@ -21,24 +21,24 @@
       </div>
       </div>
       <div class="me">
-        <h2><font-awesome-icon icon="pen" class="icon" /> 経歴</h2>
-        <h3>●1992年12月 誕生</h3>
+        <h2>Education & Work Experience</h2>
+        <h3>1992 / 12 <p style="display:inline;">誕生</p></h3>
         <p class="text">岩手県紫波町で学生まで過ごす。小学校の同級生は9人というのんのんびよりな地域で、ザリガニをとったり、サッカーをして過ごす。<br><br></p>
 
-        <h3>●2011年3月 岩手県立盛岡第一高等学校 卒業</h3>
+        <h3>2011 / 3 <p style="display:inline;">岩手県立盛岡第一高等学校 卒業</p></h3>
         <p class="text">ラグビー部に入部し、キャプテンも勤めた。部活に気持ちがのっていたため授業は常に凌ぎに徹した。<br><br></p>
 
-        <h3>●2015年3月 電気通信大学 情報理工学部 情報・通信工学科 卒業</h3>
+        <h3>2015 / 3 <p style="display:inline;">電気通信大学 情報理工学部 情報・通信工学科 卒業 </p></h3>
         <p class="text">専攻は超高層大気物理学で、卒業研究テーマはオーロラ。貧乏性すぎてMicrosoft Officeを嫌い、LaTexとApache OpenOfficeで凌ぐ。<br><br></p>
-        <h3>●2017年3月 電気通信大学大学院情報システム学研究科 中退</h3>
+        <h3>2017 / 3 <p style="display:inline;">電気通信大学大学院情報システム学研究科 中退</p></h3>
         <p class="text">学部生時代と研究室が変わってしまい、モチベーションを保つことができなくなり、就職へ。<br><br></p>
-        <h3>●2017年4月 株式会社日立ソリューションズ 入社</h3>
+        <h3>2017 / 4 <p style="display:inline;">株式会社日立ソリューションズ 入社</p></h3>
         <p class="text">愛知県で製造業向け製品管理パッケージ導入やCAD製品カスタマイズなどのSI事業を実施。<br><br></p>
-        <h3>●2019年10月 アマノ株式会社 入社</h3>
+        <h3>2019 / 10  <p style="display:inline;">アマノ株式会社 入社</p></h3>
         <p class="text">小・中・大企業向けに人事労務管理パッケージや入退室管理システムを導入<br><br></p>
-        <h3>●2020年11月 デジタルハリウッドSTUDIObyLIG上野校 入校</h3>
+        <h3>2020 / 11 <p style="display:inline;">デジタルハリウッドSTUDIObyLIG上野校 入校</p></h3>
         <p class="text">コロナ禍により、家にいる時間が長くなり以前から興味のあったWebやデザインを学習。<br><br></p>
-        <h2><font-awesome-icon icon="pen" class="icon" /> 資格・免許</h2>
+        <h2>Certification</h2>
         <p class="text">●普通自動車免許</p>
         <p class="text">●基本情報技術者</p>
         <p class="text">●ウェブデザイン技能検定3級</p>
@@ -89,7 +89,17 @@ p.photo img {
 
 
 .about h2{
-  text-decoration: underline solid  #EFE8D7;
+  background:linear-gradient(transparent 90%, #EFE8D7 100%);
+  font-weight: 800;
+}
+
+.about h3{
+  font-size: 0.95rem;
+  font-weight: 800;
+}
+
+.about h3 p{
+  font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 .about .text{
@@ -213,6 +223,7 @@ p.photo img {
 
   .about h2{
     font-size: 1.2rem;
+    text-align: center;
   }
 
   .about h3{
@@ -237,6 +248,12 @@ p.photo img {
     margin: 0 auto;
     width: 300px;
     height: 300px;
+  }
+  .about h2{
+text-align: center;
+  }
+  .about h3{
+    font-size: 0.9rem;
   }
 }
 
