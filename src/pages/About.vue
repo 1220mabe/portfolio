@@ -54,6 +54,8 @@
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap');
+
 .about {
   display: inline-flex;
   margin-left: 5%;
@@ -89,6 +91,11 @@ p.photo img {
 .about h2{
   text-decoration: underline solid  #EFE8D7;
 }
+
+.about .text{
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
 
 .me {
   text-align: left;
