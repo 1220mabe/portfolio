@@ -17,16 +17,19 @@
         <vue-particles color="#EFE8D7" :particleOpacity="0.5" :particlesNumber="120" shapeType="circle" :particleSize="3" linesColor="#EFE8D7" :lineLinked="false" :hoverEffect="false" :clickEffect="true" clickMode="push" class="particles">
         </vue-particles>
       </kinesis-element>
-      <kinesis-element :strength="10">
+      <kinesis-element :strength="30">
         <div class="rotate-hover">
           <div class="rotate-anime_2"><img class="" src="./assets/anime/zgzgcircle.svg" alt="anime"></div>
         </div>
       </kinesis-element>
-      <kinesis-element :strength="-5">
-
+      <kinesis-element :strength="-20">
+    <div id="earth" class="kine_earth"></div>
       </kinesis-element>
     </kinesis-container>
-    <div id="earth"></div>
+    <div class="rotate-hover">
+      <div class="no_kine_rotate-anime_2"><img class="" src="./assets/anime/zgzgcircle.svg" alt="anime"></div>
+    </div>
+    <div id="earth" class="no_kine_earth"></div>
 
   </div>
 
@@ -281,6 +284,7 @@ export default {
 
 /* Animation */
 .rotate-anime_2 {
+    z-index: -1;
   position: absolute;
   opacity: 0.3;
   width: 100px;
@@ -299,7 +303,7 @@ export default {
 }
 
 .rotate-hover:hover {
-  transform: scale(1.05);
+  transform: scale(1.1);
   transition-duration: 0.7s;
 }
 
@@ -455,10 +459,11 @@ export default {
 }
 
 #earth {
+  z-index: -1;
   opacity: 0.08;
   position: absolute;
-  bottom: -8%;
-  right: -8%;
+  bottom: -1%;
+  right: -1%;
   width: 280px;
   height: 280px;
   background: url(./assets/anime/earthmap.jpg);
@@ -480,7 +485,7 @@ export default {
 
 #earth:hover {
   transform: rotate(-23.4deg);
-  transform: scale(1.05);
+  transform: scale(1.1);
   transition-duration: 0.7s;
 }
 
@@ -502,6 +507,13 @@ export default {
   to {
     background-position: 500px 0px;
   }
+}
+
+.no_kine_rotate-anime_2{
+  display: none;
+}
+.no_kine_earth{
+  display: none;
 }
 
 @media screen and (max-width: 2300px) {
@@ -531,19 +543,6 @@ export default {
     right: 2%;
   }
 
-  .rotate-anime_2 {
-    z-index: 0;
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    position: absolute;
-    opacity: 0.3;
-    width: 100px;
-    right: 20px;
-    bottom: 650px;
-    animation: rotate-anime 20s linear infinite;
-  }
 
 }
 
@@ -554,10 +553,47 @@ export default {
 }
 
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 490px) {
   .about-back {
     text-align: center;
   }
+  .kine_earth{
+    display: none;
+  }
+  .rotate-anime_2 {
+    display: none;
+  }
+  .no_kine_earth {
+    display: block;
+    bottom: -8%;
+    right: -8%;
+  }
+  .no_kine_earth:hover {
+    display: block;
+    transform: rotate(-23.4deg);
+    transform: scale(1.05);
+    transition-duration: 0.7s;
+  }
 
+  .no_kine_rotate-anime_2 {
+      display: block;
+      z-index: -1;
+      position: absolute;
+      opacity: 0.3;
+      width: 100px;
+      right: 10px;
+      bottom: 650px;
+      animation: rotate-anime 20s linear infinite;
+      transition-duration: 0.7s;
+      user-select: none;
+      -moz-user-select: none;
+      -webkit-user-select: none;
+      -ms-user-select: none;
+  }
+  .no_kine_rotate-anime_2:hover {
+    display: block;
+    transform: scale(1.1);
+    transition-duration: 0.7s;
+  }
 }
 </style>

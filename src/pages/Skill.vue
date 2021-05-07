@@ -104,6 +104,7 @@
                     <h3>WordPress</h3>
                 </div>
             </div>
+            <div class="last"></div>
         </div>
   </div>
 </template>
@@ -139,6 +140,9 @@
   transition-duration: 0.2s;
 }
 
+.last{
+  padding-bottom: 40px;
+}
 
 .item-image:hover{
   transform: scale(1.2);
@@ -147,7 +151,7 @@
 
 .skill-title-shadow .content-title:before {
   position: absolute;
-  top: 9%;
+  top: 8%;
   left: 5%;
   right: 5%;
   content: "Skill";
