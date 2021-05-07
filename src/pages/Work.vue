@@ -28,7 +28,9 @@
           </div>
         </div>
         <br>
+
         <a href="https://masaru-abe.com/" class="card-link" target="_blank">Website</a>
+
         <a href="https://github.com/1220mabe/portfolio" class="card-link github-link" target="_blank">Github</a>
       </div>
     </li>
@@ -38,7 +40,7 @@
         <img class="card-img" src="../assets/work/teamqno.png" alt="">
       </a>
       <div class="card-content">
-        <h1 class="card-title">Magic the Gathering<br>ファンサイト</h1>
+        <h1 class="card-title jp">Magic the Gathering<br>ファンサイト</h1>
         <p class="card-text">Magic the Gathering fan site</p>
         <div class="items">
           <div class="item">
@@ -103,6 +105,7 @@
 
 .jp {
   font-weight: 100;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 .card-lang {
@@ -163,6 +166,7 @@
   color: #EFE8D7;
   opacity: 0.3;
 }
+
 
 .github-link {
   border-color: #171515;
@@ -237,7 +241,6 @@
     margin: 0 10px;
     padding: 5px 10px;
     border-radius: 5px;
-
     font-weight: bold;
   }
 

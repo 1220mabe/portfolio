@@ -23,13 +23,23 @@
         </div>
       </kinesis-element>
       <kinesis-element :strength="-20">
+<!--     <div class="kine_earth_back"> -->
     <div id="earth" class="kine_earth"></div>
+<!--     <div></div>
+<div></div>
+<div></div>
+</div> -->
       </kinesis-element>
     </kinesis-container>
     <div class="rotate-hover">
       <div class="no_kine_rotate-anime_2"><img class="" src="./assets/anime/zgzgcircle.svg" alt="anime"></div>
     </div>
-    <div id="earth" class="no_kine_earth"></div>
+    <div id="earth" class="no_kine_earth">
+      <div></div>
+      <div></div>
+      <div></div>
+
+    </div>
 
   </div>
 
@@ -284,23 +294,16 @@ export default {
 
 /* Animation */
 .rotate-anime_2 {
-  z-index: -1;
   position: absolute;
   opacity: 0.3;
   width: 100px;
   right: 20px;
   bottom: 650px;
   animation: rotate-anime 20s linear infinite;
-  transition-duration: 0.7s;
   user-select: none;
   -moz-user-select: none;
   -webkit-user-select: none;
   -ms-user-select: none;
-}
-
-.rotate-anime_2:hover {
-    transform: scale(1.1);
-    transition-duration: 0.7s;
 }
 
 /* .rotate-hover {
@@ -524,6 +527,125 @@ export default {
   display: none;
 }
 
+/* .kine_earth_back{
+  display: block;
+}
+.kine_earth_back div {
+  position: absolute;
+  width: .001vmin;
+  height: .001vmin;
+  border-radius: 50%;
+  opacity: .25;
+}
+
+.kine_earth_back div:nth-child(2) {
+  box-shadow: 0 0 @diameter @diameter magenta;
+  animation:
+    hue 10s 0s linear infinite,
+    move1 19s 0s linear infinite;
+}
+
+.kine_earth_back div:nth-child(3) {
+  box-shadow: 0 0 @diameter @diameter white;
+  animation:
+    hue 15s 0s linear infinite,
+    move2 25s 0s linear infinite;
+}
+
+.kine_earth_back div:nth-child(4) {
+  box-shadow: 0 0 @diameter @diameter cyan;
+  animation:
+    hue 20s 0s linear infinite,
+    move3 15s 0s linear infinite;
+  opacity: .2;
+}
+
+@keyframes hue {
+  0% { filter: hue-rotate(0deg); }
+  100% { filter: hue-rotate(360deg); }
+}
+
+@keyframes move1 {
+  0% {
+    top: 0vh;
+    left: 50vw;
+  }
+  25% {
+    left: 0vw;
+  }
+  50% {
+    top: 100vh;
+  }
+  75% {
+    left: 100vw;
+  }
+  100% {
+    top: 0vh;
+    left: 50vw;
+  }
+}
+
+@keyframes move2 {
+  0% {
+    top: 50vh;
+    left: 100vw;
+  }
+  25% {
+     top:  100vh;
+  }
+  50% {
+    left: 0vw;
+  }
+  75% {
+    top: 0vh;
+  }
+  100% {
+    top: 50vh;
+    left: 100vw;
+  }
+}
+
+@keyframes move3 {
+  0% {
+    top: 100vh;
+    left: 50vw;
+  }
+  25% {
+     left: 100vw;
+  }
+  50% {
+    top: 0vh;
+  }
+  75% {
+    left: 0vw;
+  }
+  100% {
+    top: 100vh;
+    left: 50vw;
+  }
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 2300px) {
   #top-back {
     position: fixed;
@@ -602,7 +724,7 @@ export default {
   .no_kine_earth:hover{
     display: block;
     transform: rotate(-23.4deg);
-    transform: scale(1.05);
+    transform: scale(1.1);
     transition-duration: 0.7s;
   }
 
@@ -622,7 +744,7 @@ export default {
   }
   .no_kine_rotate-anime_2:hover {
     display: block;
-    transform: scale(1.05);
+    transform: scale(1.1);
     transition-duration: 0.7s;
   }
 }

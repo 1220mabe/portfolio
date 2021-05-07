@@ -231,7 +231,7 @@
 
   .item-image{
       height: 30px;
-      width: 40px;
+      width: 30px;
   }
   h3{
     font-size: 0.6em;

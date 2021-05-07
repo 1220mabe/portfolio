@@ -34,8 +34,8 @@ export default {
 
 <style>
 .bm-burger-bars{
-  background-color: #EFE8D7!important;
-  color: #EFE8D7!important;
+  background-color: #EFE8D7;
+  color: #EFE8D7;
 }
 
 .line-style{
@@ -106,13 +106,13 @@ export default {
   }
 
   .bm-burger-button {
-    position: fixed!important;
-    width: 42px!important;
-    height: 30px!important;
-    left:28px!important;
-    top: 28px!important;
-    cursor: pointer!important;
-    color: #EFE8D7!important;
+    position: fixed;
+    width: 42px;
+    height: 30px;
+    left:28px;
+    top: 28px;
+    cursor: pointer;
+    color: #EFE8D7;
 
   }
 
