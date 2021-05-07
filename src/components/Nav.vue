@@ -107,10 +107,10 @@ export default {
 
   .bm-burger-button {
     position: fixed;
-    width: 42px;
-    height: 30px;
-    left:28px;
-    top: 28px;
+    width: 42px!important;
+    height: 30px!important;
+    left:28px!important;
+    top: 28px!important;
     cursor: pointer;
     color: #EFE8D7;
 
@@ -123,9 +123,9 @@ export default {
 
   .line-style {
     position: absolute;
-    height: 7px;
-    left: 0px;
-    right: 0px;
+    height: 7px!important;
+    left: 0px!important;
+    right: 0px!important;
     color: #EFE8D7!important;
     background-color: #EFE8D7!important;
   }
