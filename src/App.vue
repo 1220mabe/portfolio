@@ -486,6 +486,10 @@ export default {
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
   transition-duration: 0.7s;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 .kine_earth:hover {
@@ -592,6 +596,10 @@ export default {
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
     transition-duration: 0.7s;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
   }
   .no_kine_earth:hover{
     display: block;
