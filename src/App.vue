@@ -472,7 +472,7 @@ export default {
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   -webkit-animation-name: rotate;
-  -webkit-animation-duration: 12s;
+  -webkit-animation-duration: 36s;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
   transition-duration: 0.7s;
