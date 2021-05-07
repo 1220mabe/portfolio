@@ -298,14 +298,19 @@ export default {
   -ms-user-select: none;
 }
 
-.rotate-hover {
+.rotate-anime_2:hover {
+    transform: scale(1.1);
+    transition-duration: 0.7s;
+}
+
+/* .rotate-hover {
   transition-duration: 0.7s;
 }
 
-.rotate-hover:hover {
+.rotate-hover {
   transform: scale(1.1);
   transition-duration: 0.7s;
-}
+} */
 
 /* 流れ星 */
 
@@ -458,7 +463,7 @@ export default {
   }
 }
 
-#earth {
+.kine_earth {
   z-index: -1;
   opacity: 0.08;
   position: absolute;
@@ -483,7 +488,7 @@ export default {
   transition-duration: 0.7s;
 }
 
-#earth:hover {
+.kine_earth:hover {
   transform: rotate(-23.4deg);
   transform: scale(1.1);
   transition-duration: 0.7s;
@@ -564,11 +569,31 @@ export default {
     display: none;
   }
   .no_kine_earth {
-    display: block;
-    bottom: -8%;
-    right: -8%;
+    display:block;
+    z-index: -1;
+    opacity: 0.08;
+    position: absolute;
+    bottom: -5%;
+    right: -5%;
+    width: 280px;
+    height: 280px;
+    background: url(./assets/anime/earthmap.jpg);
+    border-radius: 50%;
+    background-size: 610px;
+    box-shadow: inset 0px 0px 0px 0px #EFE8D7,
+    inset 0px 0px 0px 0px #0A63BB;
+    transform: rotate(23.4deg);
+    animation-name: rotate;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -webkit-animation-name: rotate;
+    -webkit-animation-duration: 36s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    transition-duration: 0.7s;
   }
-  .no_kine_earth:hover {
+  .no_kine_earth:hover{
     display: block;
     transform: rotate(-23.4deg);
     transform: scale(1.05);
@@ -582,7 +607,7 @@ export default {
       opacity: 0.3;
       width: 100px;
       right: 10px;
-      bottom: 650px;
+      top: 30px;
       animation: rotate-anime 20s linear infinite;
       transition-duration: 0.7s;
       user-select: none;
@@ -592,7 +617,7 @@ export default {
   }
   .no_kine_rotate-anime_2:hover {
     display: block;
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition-duration: 0.7s;
   }
 }
