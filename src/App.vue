@@ -736,16 +736,10 @@ export default {
       right: 10px;
       top: 30px;
       animation: rotate-anime 20s linear infinite;
-      transition-duration: 0.7s;
       user-select: none;
       -moz-user-select: none;
       -webkit-user-select: none;
       -ms-user-select: none;
-  }
-  .no_kine_rotate-anime_2:hover {
-    display: block;
-    transform: scale(1.1);
-    transition-duration: 0.7s;
   }
 }
 </style>

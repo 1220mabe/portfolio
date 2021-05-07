@@ -5,7 +5,7 @@
   </div>
   <ul class="works">
     <li class="card">
-      <a href="https://masaru-abe.com/" target="_blank">
+      <a href="https://masaru-abe.com/" target="_blank" class="card-img-a">
         <img class="card-img" src="../assets/work/portfolio.png" alt="">
       </a>
       <div class="card-content">
@@ -101,6 +101,7 @@
 .works .item-image {
   height: 40px;
   width: 40px;
+
 }
 
 .jp {
@@ -117,15 +118,14 @@
   margin: 30px 60px;
   width: 350px;
   color: #EFE8D7;
+
 }
 
 .card-img {
-  border-radius: 5px;
   width: 100%;
   height: 200px;
   object-fit: contain;
   transition-duration: 0.4s;
-  /*変化に掛かる時間*/
   display: block;
   -webkit-filter: grayscale(1);
   filter: gray;
