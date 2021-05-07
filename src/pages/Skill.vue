@@ -168,7 +168,9 @@
 }
 
 .skill-back h2{
-  margin-top: 40px
+  margin-top: 40px;
+  text-decoration:underline #EFE8D7 ;
+  font-weight: 800;
 }
 
 .icon{
