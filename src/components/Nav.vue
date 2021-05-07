@@ -96,13 +96,13 @@ export default {
     display: none;
   }
   .nav-slide {
-    display: block!important;
-    background: #EFE8D7!important;
-    color: #EFE8D7!important;
-    user-select: none!important;
-    -moz-user-select: none!important;
-    -webkit-user-select: none!important;
-    -ms-user-select: none!important;
+    display: block;
+    background: #EFE8D7;
+    color: #EFE8D7;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
   }
 
   .bm-burger-button {
@@ -117,15 +117,15 @@ export default {
   }
 
   .bm-burger-bars {
-    background-color: #EFE8D7!important;
-    color: #EFE8D7!important;
+    background-color: #EFE8D7;
+    color: #EFE8D7;
   }
 
   .line-style {
-    position: absolute!important;
-    height: 7px!important;
-    left: 0px!important;
-    right: 0px!important;
+    position: absolute;
+    height: 7px;
+    left: 0px;
+    right: 0px;
     color: #EFE8D7!important;
     background-color: #EFE8D7!important;
   }
