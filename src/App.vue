@@ -284,7 +284,7 @@ export default {
 
 /* Animation */
 .rotate-anime_2 {
-    z-index: -1;
+  z-index: -1;
   position: absolute;
   opacity: 0.3;
   width: 100px;
@@ -464,7 +464,6 @@ export default {
 }
 
 .kine_earth {
-  z-index: -1;
   opacity: 0.08;
   position: absolute;
   bottom: -1%;
@@ -574,7 +573,6 @@ export default {
   }
   .no_kine_earth {
     display:block;
-    z-index: -1;
     opacity: 0.08;
     position: absolute;
     bottom: -5%;
@@ -610,7 +608,6 @@ export default {
 
   .no_kine_rotate-anime_2 {
       display: block;
-      z-index: -1;
       position: absolute;
       opacity: 0.3;
       width: 100px;
