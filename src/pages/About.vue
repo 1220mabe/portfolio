@@ -91,12 +91,14 @@ p.photo img {
   -moz-user-select: text;
   -webkit-user-select: text;
   -ms-user-select: text;
+
 }
 
 
 .about h2{
   background:linear-gradient(transparent 90%, #EFE8D7 100%);
   font-weight: 800;
+  line-height: 1.5;
 }
 
 .about h3{
@@ -107,6 +109,7 @@ p.photo img {
 .about h3 p{
   text-align: right;
   font-family: 'M PLUS Rounded 1c', sans-serif;
+
 }
 
 .about .text{
@@ -127,6 +130,7 @@ p.photo img {
 .text {
   position: relative;
   font-weight: 300;
+  line-height: 1.5;
 }
 .text_last {
   position: relative;

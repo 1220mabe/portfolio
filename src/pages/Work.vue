@@ -1,7 +1,7 @@
 <template>
 <div class="work-back">
   <div class="work-title-shadow">
-    <h1 class="content-title">Works</h1>
+    <h1 class="content-title">Work</h1>
   </div>
   <ul class="works">
     <li class="card">
@@ -181,10 +181,10 @@
 
 .work-title-shadow .content-title:before {
   position: absolute;
-  top: 9.5%;
+  top: 9.1%;
   left: 5%;
   right: 5%;
-  content: "Works";
+  content: "Work";
   opacity: 0.3;
   transform: rotateX(180deg);
   animation: zoomIn 3s linear;

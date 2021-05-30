@@ -35,9 +35,6 @@
       <div class="no_kine_rotate-anime_2"><img class="" src="./assets/anime/zgzgcircle.svg" alt="anime"></div>
     </div>
     <div id="earth" class="no_kine_earth">
-      <div></div>
-      <div></div>
-      <div></div>
 
     </div>
 
@@ -298,7 +295,7 @@ export default {
   opacity: 0.3;
   width: 100px;
   right: 20px;
-  bottom: 650px;
+  bottom: 1050px;
   animation: rotate-anime 20s linear infinite;
   user-select: none;
   -moz-user-select: none;

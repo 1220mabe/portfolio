@@ -151,7 +151,7 @@
 
 .skill-title-shadow .content-title:before {
   position: absolute;
-  top: 8%;
+  top: 4.5%;
   left: 5%;
   right: 5%;
   content: "Skill";
