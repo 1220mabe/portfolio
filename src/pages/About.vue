@@ -38,6 +38,8 @@
         <p class="text">小・中・大企業向けに人事労務管理パッケージや入退室管理システムを導入。<br><br></p>
         <h3><font-awesome-icon icon="circle-notch"/> 2020. 11 <p style="display:inline;">デジタルハリウッドSTUDIObyLIG上野校 入校</p></h3>
         <p class="text">コロナ禍により、家にいる時間が長くなり以前から興味のあったWebやデザインを学習。<br><br></p>
+        <h3><font-awesome-icon icon="circle-notch"/> 2021. 11 <p style="display:inline;">株式会社ウェザーニューズ 入社</p></h3>
+        <p class="text">アプリケーションエンジニアとして、海運系のサービス開発業務を実施。<br><br></p>
         <h2>Certification</h2>
         <p class="text"><font-awesome-icon icon="car"/> 普通自動車免許</p>
         <p class="text"><font-awesome-icon icon="laptop"/> 基本情報技術者</p>
